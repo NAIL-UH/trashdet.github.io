@@ -1,14 +1,16 @@
-# Nerfies
+# ELASTIC
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [TrashDet website](https://nail-uh.github.io/trashdet.github.io/).
 
-If you find Nerfies useful for your work please cite:
+If you find TrashDet useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@InProceedings{Tran_2026_WACV,
+    author    = {Tran, Tony and Hu, Bin},
+    title     = {TrashDet: Iterative Neural Architecture Search for Efficient Waste Detection},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {March},
+    year      = {2026},
+    pages     = {585-593}
 }
 ```
 
