@@ -1,4 +1,4 @@
-# ELASTIC
+# TrashDet
 
 This is the repository that contains source code for the [TrashDet website](https://nail-uh.github.io/trashdet.github.io/).
 
