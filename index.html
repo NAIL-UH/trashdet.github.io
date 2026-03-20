@@ -60,6 +60,23 @@
       .section-spacer {
         margin-top: 1rem;
       }
+
+      .video-wrapper {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+      }
+
+      .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
     </style>
   </head>
 
@@ -104,7 +121,7 @@
                     </a>
                   </span>
                   <span class="link-block">
-                    <a href="https://www.youtube.com/watch?v=lOk6MGVY1E4" class="external-link button is-normal is-rounded is-dark">
+                    <a href="https://youtu.be/lOk6MGVY1E4?si=VV6CKFcB0aEcLUY8" class="external-link button is-normal is-rounded is-dark">
                       <span class="icon"><i class="fab fa-youtube"></i></span>
                       <span>Video</span>
                     </a>
@@ -469,6 +486,24 @@
                   detection accuracy under the MAX78002 hardware budget.
                 </p>
               </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full-width">
+            <h2 class="title is-3">Video Demo</h2>
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/lOk6MGVY1E4?autoplay=1&mute=1&loop=1&playlist=lOk6MGVY1E4&controls=1&rel=0&playsinline=1"
+                title="TrashDet Video Demo"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+              </iframe>
             </div>
           </div>
         </div>
