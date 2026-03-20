@@ -24,7 +24,7 @@
 
     <style>
       .cover-image img {
-        max-width: 68%;
+        max-width: 51%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -33,6 +33,13 @@
       .structure-image img,
       .full-image img {
         max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .predictor-image img {
+        max-width: 125%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -216,8 +223,8 @@
         <div class="columns is-centered has-text-centered">
           <div class="column is-full-width">
             <h2 class="title is-3">Accuracy Predictor</h2>
-            <div class="full-image">
-              <img src="./static/images/predictor.png" alt="Accuracy predictor versus true mAP50" style="max-width:100%; height:auto;">
+            <div class="predictor-image">
+              <img src="./static/images/predictor.png" alt="Accuracy predictor versus true mAP50">
             </div>
             <p class="result-note">
               The lightweight predictor closely tracks true mAP50 and serves as an efficient surrogate during evolutionary
